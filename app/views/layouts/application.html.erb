@@ -1,0 +1,246 @@
+<!-- APPLICATION LAYOUT -->
+
+<!DOCTYPE html>
+<html class=" webkit chrome linux translated-ltr">
+    <head>
+
+    <!-- pegando a fonte para uso do sistema no google -->
+    <link href="http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:extralight,light,regular,bold" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Fredericka+the+Great|Pompiere|Bad+Script' rel='stylesheet' type='text/css'>   
+    
+    <!-- 
+    font-family: 'Fredericka the Great', cursive;
+		font-family: 'Pompiere', cursive;
+		font-family: 'Bad Script', cursive;
+    -->
+    
+    <!-- mudando a informação da barra de títulos do navegador -->
+    <title>Gráfica e Editora Piauí</title>
+
+    <%= javascript_include_tag "application.js" %>  
+     
+    <!-- nao remover, cruscial ao sistema -->
+    <%= stylesheet_link_tag "/static/css/style"%>           
+    <%= stylesheet_link_tag "/static/css/screen"%>
+    <!-- <%#= stylesheet_link_tag "/static/css/menu"%> -->
+         
+    <!-- Menu horizontal -->
+    <%= stylesheet_link_tag "/jqMenuHorizontal/menu" %>
+    <%= javascript_include_tag "/jqMenuHorizontal/menu"%>
+	
+		<!-- Carrocel jquery -->
+    <%= stylesheet_link_tag "/Carousel/css/feature-carousel.css" %>
+		<%= javascript_include_tag "/Carousel/js/jquery-1.7.min.js" %>
+		<%= javascript_include_tag "/Carousel/js/jquery.featureCarousel.min.js" %>
+		
+    <!--[if lt IE 9]>
+        <%= stylesheet_link_tag "/static/css/style-ie" %>
+    <![endif]-->
+
+		<!-- para uso dos index (fontes e aparecencias)  --> 
+    <%= content_for?(:formatacao) ? yield(:formatacao) : ""  %> 
+    
+    <%= csrf_meta_tag %>  
+  
+    </head>
+  
+    <body>
+          
+      <div id="root">  
+					 <table id="content" width="100%" height="100%">
+						    <tbody>
+						    	<tr>
+						          <td id="top" colspan="3">    			 
+                
+								           <div id="top" >                         
+																<p id="cmp_logo">
+																		<a href="#" target="_top">
+																			 <%= image_tag "/images/lgp.png", :alt=>"GPiaui", :width=>'130', :heigth=>'130' %>       
+																		</a> 
+																</p>
+                		
+																<h1 id="title-menu">
+														        <font><font style="">Gráfica Piauí Industria Formulários Continuos Ltda</font></font>
+														        <small><small><small><font><font style="">Av. Rui Barborasa, 3390/N Matadouro Teresina/PI</font></font></small></small></small>
+														        <small><small><small><font><font style="">CEP: 64.002-180 - formulariospiaui@hotmail.com</font></font></small></small></small>
+														        <small><small><small><font><font style="">(86) 3213-5857</font></font></small></small></small>       
+														    </h1>
+				                
+												        
+												        <div id="logo-dir">
+												         <%= image_tag "/images/fmc.png", :alt=>"GPiaui2", :width=>'140', :heigth=>'140' %>
+												        </div>
+												       
+				            	</td>				            
+				           </tr>
+				           
+				       			<!-- Menu principal de operacoes -->
+				            <td id="main_nav" colspan="3">
+								       	<div id='applications_menu'>
+								       	
+								            <div id="menu">								            
+								                <ul class="menu">
+							                    <li><a href="/" class="parent"><span>HOME</span></a></li>								                    
+	     			                      <li><%= link_to "<span>INSTITUCIONAL</span>".html_safe, {:controller=>'institucionals', :action=>'index'} %><li>
+																	<li><a href="#" class="parent"><span>PRODUTOS</span></a></li>
+							                    <li><a href="#" class="parent"><span>PORTIFÓLIO</span></a></li>
+							                    <li><a href="#" class="parent"><span>ORÇAMENTO</span></a></li>							                    
+							                    <li><a href="#" class="parent"><span>CONTATO</span></a></li>                  
+								                </ul>
+								            </div>
+								            <!--
+								            <%= image_tag "/images/facebook_premium.png", :alt=>"GPiaui", :width=>'50', :heigth=>'50' %>     
+								            <%= image_tag "/images/twitter_premium.png", :alt=>"GPiaui", :width=>'50', :heigth=>'50' %>     
+								            <%= image_tag "/images/feed_premium.png", :alt=>"GPiaui", :width=>'50', :heigth=>'50' %>     
+								            -->
+												</div>			                
+				            </td>
+				            
+						      </tr>
+						      <!--   Sub-menu de operações FIM-->
+						      <tr>				
+						      		<td>	
+						      		
+										      		<!-- Inicio do Carrousel -->									
+													 		<center>
+																	<div class="carousel-container">
+				
+																			<div id="carousel">
+																					<div class="carousel-feature">
+																						<a href="#"><img class="carousel-image" alt="Image Caption" src="/Carousel/images/grafica1.jpg"></a>
+																				<div class="carousel-caption">
+																					<p>Esta área é normalmente usado para exibir legendas associadas com as imagens. Eles são definidos a esconder e fade in na rotação.</p>
+																				</div>
+																			</div>
+						
+																			<div class="carousel-feature">
+																				<a href="#"><img class="carousel-image" alt="Image Caption" src="/Carousel/images/impressora-grafica-offset.jpg"></a>
+																				<div class="carousel-caption">
+																					<p>
+																						Offset - máquina de grande porte.
+																					</p>
+																				</div>
+																			</div>
+								
+																			<div class="carousel-feature">
+																				<a href="#"><img class="carousel-image" alt="Image Caption" src="/Carousel/images/Memoria grafica.JPG"></a>
+																				<div class="carousel-caption">
+																					<p>
+																						História lembradas por seus funcionários e parceiros.
+																					</p>
+																				</div>
+																			</div>
+								
+																<div class="carousel-feature">
+																	<a href="#"><img class="carousel-image" alt="Image Caption" src="/Carousel/images/comunicacao_visual .png"></a>
+																</div>
+								
+																<div class="carousel-feature">
+																	<a href="#"><img class="carousel-image" alt="Image Caption" src="/Carousel/images/cartoes.jpg"></a>
+																	<div class="carousel-caption">
+																		<p>
+																			Cartões com alta qualidade e agilidade.
+																		</p>
+																	</div>
+																</div>
+								
+																<div class="carousel-feature">
+																	<a href="#"><img class="carousel-image" alt="Image Caption" src="/Carousel/images/images.jpg"></a>
+																	<div class="carousel-caption">
+																		<p>
+																			Excelente qualidade nos impressos.
+																		</p>
+																	</div>
+																</div>
+								
+																 <div class="carousel-feature">
+																	<a href="#"><img class="carousel-image" alt="Image Caption" src="/Carousel/images/fmc.png"></a>
+																	<div class="carousel-caption">
+																		<p>
+																			Pioneira em formulários continuos no Piauí.
+																		</p>
+																	</div>
+																</div>
+								
+															</div>
+				
+															<div id="carousel-left"><img src="/Carousel/images/arrow-left.png" /></div>
+															<div id="carousel-right"><img src="/Carousel/images/arrow-right.png" /></div>
+													</div>
+												</center>	
+												<!-- Fim do carrousel -->						 
+								
+						      		</td>
+						      </tr>
+						      <tr>
+						      		<td><br /></td>
+						      </tr>
+						      <tr>
+						      		<td colspan="3" valing="top">
+										  		<div class="top_class">
+												  		<%= yield if controller_name != 'usuarios'%>
+										  		</div>
+						      		</td>
+						      		
+						      
+						      </tr>
+						      <tr>
+						      		<td>
+						      		
+						      			 <div id="fooder-end">
+														<div class="fooder-info">	
+																<br /><br />
+																<center>					  
+																<p class="fooder-info">Copyright 2012 © Los Angels </p> <br />
+																<p class="fooder-info">
+																		<strong><span class="fooder-info">Gráfica e Editora do Piauí</span></strong>
+																		| Av. Rui Barborasa, 3390/N | Matadouro  | Teresina/PI | 64.002-180 | Telefone: (86)3213-5857 | 
+																		<a href="mailto:formulariospiaui@hotmail.com">formulariospiaui@hotmail.com</a>
+																</p>	
+																</center>
+														</div>
+												</div>
+						      		</td>
+						      </tr>
+						      
+						  </tbody>
+						</table> 			            
+                  
+      </div>
+      
+     
+      <!-- Área para os JavaScripts -->
+      
+      <script type="text/javascript">
+      $(document).ready(function() {
+        var carousel = $("#carousel").featureCarousel({
+          // include options like this:
+          // (use quotes only for string values, and no trailing comma after last option)
+          // option: value,
+          // option: value
+        });
+
+        $("#but_prev").click(function () {
+          carousel.prev();
+        });
+        $("#but_pause").click(function () {
+          carousel.pause();
+        });
+        $("#but_start").click(function () {
+          carousel.start();
+        });
+        $("#but_next").click(function () {
+          carousel.next();
+        });
+      });
+    </script>    
+    
+     <script type="text/javascript">
+            $('div#submenu1').hide();  
+				    $('li#submenu2').hide();                                	
+	   </script>	 
+		
+    <!-- Fim da área para os JavaScripts -->
+	  
+	 </body> 
+</html>
