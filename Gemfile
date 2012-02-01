@@ -21,7 +21,11 @@ gem 'rails', '3.1.3'
 
 # gem 'bj'
 # gem 'nokogiri'
-gem 'sqlite3-ruby', :require => 'sqlite3'
+
+group :development do
+	gem 'sqlite3-ruby', :require => 'sqlite3'
+end
+
 # gem 'aws-s3', :require => 'aws/s3'
 
 gem 'jquery-rails', '>= 1.0.12'
@@ -37,3 +41,10 @@ gem 'therubyracer'
 # group :development, :test do
 #   gem 'webrat'
 # end
+
+
+#Para uso do Heroku
+group :production do
+	gem'pg','0.12.2'
+end
+
