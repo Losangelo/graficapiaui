@@ -34867,3 +34867,169 @@ ActionController::RoutingError (No route matches [GET] "/static/css/images/sub.p
   
 
 Rendered /home/losangelo/.rvm/gems/ruby-1.9.3-p0@rails313/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (9.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-02 10:49:22 -0300
+  Processing by UsuariosController#index as HTML
+  [1m[36mUsuario Load (0.3ms)[0m  [1mSELECT "usuarios".* FROM "usuarios" [0m
+Rendered usuarios/index.html.erb within layouts/application (20.0ms)
+Completed 200 OK in 366ms (Views: 223.0ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/institucionals" for 127.0.0.1 at 2012-02-02 11:02:09 -0300
+  Processing by InstitucionalsController#index as HTML
+  [1m[35mInstitucional Load (0.3ms)[0m  SELECT "institucionals".* FROM "institucionals" 
+Rendered institucionals/index.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 69ms (Views: 51.5ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/static/css/images/dots_conteudo-page.gif" for 127.0.0.1 at 2012-02-02 11:02:10 -0300
+
+ActionController::RoutingError (No route matches [GET] "/static/css/images/dots_conteudo-page.gif"):
+  
+
+Rendered /home/losangelo/.rvm/gems/ruby-1.9.3-p0@rails313/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.6ms)
+
+
+Started GET "/static/css/images/sub.png" for 127.0.0.1 at 2012-02-02 11:02:10 -0300
+
+ActionController::RoutingError (No route matches [GET] "/static/css/images/sub.png"):
+  
+
+Rendered /home/losangelo/.rvm/gems/ruby-1.9.3-p0@rails313/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.6ms)
+
+
+Started GET "/institucionals" for 127.0.0.1 at 2012-02-02 11:03:10 -0300
+  Processing by InstitucionalsController#index as HTML
+  [1m[36mInstitucional Load (0.3ms)[0m  [1mSELECT "institucionals".* FROM "institucionals" [0m
+Rendered institucionals/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 41ms (Views: 23.6ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/static/css/images/dots_conteudo-page.gif" for 127.0.0.1 at 2012-02-02 11:03:10 -0300
+
+ActionController::RoutingError (No route matches [GET] "/static/css/images/dots_conteudo-page.gif"):
+  
+
+Rendered /home/losangelo/.rvm/gems/ruby-1.9.3-p0@rails313/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.6ms)
+
+
+Started GET "/static/css/images/sub.png" for 127.0.0.1 at 2012-02-02 11:03:11 -0300
+
+ActionController::RoutingError (No route matches [GET] "/static/css/images/sub.png"):
+  
+
+Rendered /home/losangelo/.rvm/gems/ruby-1.9.3-p0@rails313/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-02 18:47:18 -0300
+  Processing by UsuariosController#index as HTML
+  [1m[36mUsuario Load (2.0ms)[0m  [1mSELECT "usuarios".* FROM "usuarios" [0m
+Rendered usuarios/index.html.erb within layouts/application (106.3ms)
+Completed 200 OK in 1410ms (Views: 843.6ms | ActiveRecord: 11.0ms)
+
+
+Started GET "/institucionals" for 127.0.0.1 at 2012-02-02 18:47:43 -0300
+  Processing by InstitucionalsController#index as HTML
+  [1m[35mInstitucional Load (1.7ms)[0m  SELECT "institucionals".* FROM "institucionals" 
+Rendered institucionals/index.html.erb within layouts/application (45.4ms)
+Completed 200 OK in 408ms (Views: 166.8ms | ActiveRecord: 10.2ms)
+
+
+Started GET "/static/css/images/dots_conteudo-page.gif" for 127.0.0.1 at 2012-02-02 18:47:48 -0300
+
+ActionController::RoutingError (No route matches [GET] "/static/css/images/dots_conteudo-page.gif"):
+  
+
+Rendered /home/losangelo/.rvm/gems/ruby-1.9.3-p0@rails313/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (9.3ms)
+
+
+Started GET "/static/css/images/sub.png" for 127.0.0.1 at 2012-02-02 18:47:48 -0300
+
+ActionController::RoutingError (No route matches [GET] "/static/css/images/sub.png"):
+  
+
+Rendered /home/losangelo/.rvm/gems/ruby-1.9.3-p0@rails313/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (8.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-02 20:39:19 -0300
+  Processing by UsuariosController#index as HTML
+  [1m[36mUsuario Load (0.3ms)[0m  [1mSELECT "usuarios".* FROM "usuarios" [0m
+Rendered usuarios/index.html.erb within layouts/application (10.6ms)
+Completed 200 OK in 344ms (Views: 214.2ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/institucionals" for 127.0.0.1 at 2012-02-02 20:40:12 -0300
+  Processing by InstitucionalsController#index as HTML
+  [1m[35mInstitucional Load (0.3ms)[0m  SELECT "institucionals".* FROM "institucionals" 
+Rendered institucionals/index.html.erb within layouts/application (6.5ms)
+Completed 200 OK in 90ms (Views: 61.1ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/static/css/images/dots_conteudo-page.gif" for 127.0.0.1 at 2012-02-02 20:40:13 -0300
+
+ActionController::RoutingError (No route matches [GET] "/static/css/images/dots_conteudo-page.gif"):
+  
+
+Rendered /home/losangelo/.rvm/gems/ruby-1.9.3-p0@rails313/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.5ms)
+
+
+Started GET "/static/css/images/sub.png" for 127.0.0.1 at 2012-02-02 20:40:13 -0300
+
+ActionController::RoutingError (No route matches [GET] "/static/css/images/sub.png"):
+  
+
+Rendered /home/losangelo/.rvm/gems/ruby-1.9.3-p0@rails313/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-02 20:45:28 -0300
+  Processing by UsuariosController#index as HTML
+  [1m[36mUsuario Load (0.3ms)[0m  [1mSELECT "usuarios".* FROM "usuarios" [0m
+Rendered usuarios/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 34ms (Views: 16.6ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/institucionals" for 127.0.0.1 at 2012-02-03 08:11:36 -0300
+  Processing by InstitucionalsController#index as HTML
+  [1m[35mInstitucional Load (0.1ms)[0m  SELECT "institucionals".* FROM "institucionals" 
+Rendered institucionals/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 8ms (Views: 4.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/static/css/images/dots_conteudo-page.gif" for 127.0.0.1 at 2012-02-03 08:11:37 -0300
+
+ActionController::RoutingError (No route matches [GET] "/static/css/images/dots_conteudo-page.gif"):
+  
+
+Rendered /home/losangelo/.rvm/gems/ruby-1.9.3-p0@rails313/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/static/css/images/sub.png" for 127.0.0.1 at 2012-02-03 08:11:37 -0300
+
+ActionController::RoutingError (No route matches [GET] "/static/css/images/sub.png"):
+  
+
+Rendered /home/losangelo/.rvm/gems/ruby-1.9.3-p0@rails313/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/institucionals" for 127.0.0.1 at 2012-02-03 08:44:17 -0300
+  Processing by InstitucionalsController#index as HTML
+  [1m[36mInstitucional Load (1.6ms)[0m  [1mSELECT "institucionals".* FROM "institucionals" [0m
+Rendered institucionals/index.html.erb within layouts/application (10.1ms)
+Completed 200 OK in 189ms (Views: 111.3ms | ActiveRecord: 8.6ms)
+
+
+Started GET "/static/css/images/dots_conteudo-page.gif" for 127.0.0.1 at 2012-02-03 08:44:21 -0300
+
+ActionController::RoutingError (No route matches [GET] "/static/css/images/dots_conteudo-page.gif"):
+  
+
+Rendered /home/losangelo/.rvm/gems/ruby-1.9.3-p0@rails313/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (12.6ms)
+
+
+Started GET "/static/css/images/sub.png" for 127.0.0.1 at 2012-02-03 08:44:22 -0300
+
+ActionController::RoutingError (No route matches [GET] "/static/css/images/sub.png"):
+  
+
+Rendered /home/losangelo/.rvm/gems/ruby-1.9.3-p0@rails313/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (15.1ms)

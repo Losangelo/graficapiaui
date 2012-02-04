@@ -82,17 +82,7 @@
 								                <ul class="menu">
 							                    <li><a href="/" class="parent"><span>HOME</span></a></li>								                    
 	     			                      <li><%= link_to "<span>INSTITUCIONAL</span>".html_safe, {:controller=>'institucionals', :action=>'index'} %><li>
-																	<li><a href="#" class="parent"><span>PRODUTOS</span></a>
-	     			                    			  <!-- somente incluindo o  (style="z-index:4"), para o z-index ficar ativo. -->
-								                        <div>
-								                        	<ul>
-								                            <li><a href="#"><span>Cartões e Convites</span></a></li>
-								                            <li><a href="#"><span>Formulários Continuos</span></a></li>
-								                            <li><a href="#"><span>Notas Fiscais</span></a></li>
-								                            <li><a href="#"><span>Etiquetas</span></a></li>
-								                        	</ul>
-								                        </div>
-                                  </li>
+																	<li><a href="#" class="parent"><span>PRODUTOS</span></a></li>
 							                    <li><a href="#" class="parent"><span>PORTIFÓLIO</span></a></li>
 							                    <li><a href="#" class="parent"><span>ORÇAMENTO</span></a></li>							                    
 							                    <li><a href="#" class="parent"><span>CONTATO</span></a></li>                  
