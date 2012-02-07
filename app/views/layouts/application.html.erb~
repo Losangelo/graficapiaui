@@ -55,22 +55,21 @@
 								           <div id="top" >                         
 																<p id="cmp_logo">
 																		<a href="#" target="_top">
-																			 <%= image_tag "/images/lgp.png", :alt=>"GPiaui", :width=>'130', :heigth=>'130' %>       
+																			 <%= image_tag "/images/lgp.png", :alt=>"GPiaui", :width=>'160', :heigth=>'160' %>       
 																		</a> 
 																</p>
                 		
 																<h1 id="title-menu">
-														        <font><font style="">Gráfica Piauí Industria Formulários Continuos Ltda</font></font>
+														        <font><font style="">Gráfica Piauí Industria de Formulários Continuos</font></font>
 														        <small><small><small><font><font style="">Av. Rui Barborasa, 3390/N Matadouro Teresina/PI</font></font></small></small></small>
 														        <small><small><small><font><font style="">CEP: 64.002-180 - formulariospiaui@hotmail.com</font></font></small></small></small>
 														        <small><small><small><font><font style="">(86) 3213-5857</font></font></small></small></small>       
 														    </h1>
 				                
-												        
+												       <!--  
 												        <div id="logo-dir">
 												         <%= image_tag "/images/fmc.png", :alt=>"GPiaui2", :width=>'140', :heigth=>'140' %>
-												        </div>
-												       
+												        </div>	 -->											       
 				            	</td>				            
 				           </tr>
 				           
@@ -81,10 +80,13 @@
 								            <div id="menu">								            
 								                <ul class="menu">
 							                    <li><a href="/" class="parent"><span>HOME</span></a></li>								                    
-	     			                      <li><%= link_to "<span>INSTITUCIONAL</span>".html_safe, {:controller=>'institucionals', :action=>'index'} %><li>
+	     			                      <li><%= link_to "<span>SERVIÇOS GRÁFICOS</span>".html_safe, {:controller=>'institucionals', :action=>'index'} %><li>
+																	<!--
 																	<li><a href="#" class="parent"><span>PRODUTOS</span></a></li>
-							                    <li><a href="#" class="parent"><span>PORTIFÓLIO</span></a></li>
-							                    <li><a href="#" class="parent"><span>ORÇAMENTO</span></a></li>							                    
+							                    <li><a href="#" class="parent"><span>PORTIFÓLIO</span></a></li> 
+
+							                    <li><a href="#" class="parent"><span>ORÇAMENTO</span></a></li>										                -->
+							                    <li><a href="#" class="parent"><span>EQUIPE</span></a></li>
 							                    <li><a href="#" class="parent"><span>CONTATO</span></a></li>                  
 								                </ul>
 								            </div>
@@ -101,76 +103,103 @@
 						      <tr>				
 						      		<td>	
 						      		
-										      		<!-- Inicio do Carrousel -->									
-													 		<center>
-																	<div class="carousel-container">
-				
-																			<div id="carousel">
-																					<div class="carousel-feature">
-																						<a href="#"><img class="carousel-image" alt="Image Caption" src="/Carousel/images/grafica1.jpg"></a>
-																				<div class="carousel-caption">
-																					<p>Esta área é normalmente usado para exibir legendas associadas com as imagens. Eles são definidos a esconder e fade in na rotação.</p>
-																				</div>
-																			</div>
-						
-																			<div class="carousel-feature">
-																				<a href="#"><img class="carousel-image" alt="Image Caption" src="/Carousel/images/impressora-grafica-offset.jpg"></a>
-																				<div class="carousel-caption">
-																					<p>
-																						Offset - máquina de grande porte.
-																					</p>
-																				</div>
-																			</div>
-								
-																			<div class="carousel-feature">
-																				<a href="#"><img class="carousel-image" alt="Image Caption" src="/Carousel/images/Memoria grafica.JPG"></a>
-																				<div class="carousel-caption">
-																					<p>
-																						História lembradas por seus funcionários e parceiros.
-																					</p>
-																				</div>
-																			</div>
-								
-																<div class="carousel-feature">
-																	<a href="#"><img class="carousel-image" alt="Image Caption" src="/Carousel/images/comunicacao_visual .png"></a>
-																</div>
-								
-																<div class="carousel-feature">
-																	<a href="#"><img class="carousel-image" alt="Image Caption" src="/Carousel/images/cartoes.jpg"></a>
-																	<div class="carousel-caption">
-																		<p>
-																			Cartões com alta qualidade e agilidade.
-																		</p>
-																	</div>
-																</div>
-								
-																<div class="carousel-feature">
-																	<a href="#"><img class="carousel-image" alt="Image Caption" src="/Carousel/images/images.jpg"></a>
-																	<div class="carousel-caption">
-																		<p>
-																			Excelente qualidade nos impressos.
-																		</p>
-																	</div>
-																</div>
-								
-																 <div class="carousel-feature">
-																	<a href="#"><img class="carousel-image" alt="Image Caption" src="/Carousel/images/fmc.png"></a>
-																	<div class="carousel-caption">
-																		<p>
-																			Pioneira em formulários continuos no Piauí.
-																		</p>
-																	</div>
-																</div>
-								
-															</div>
-				
-															<div id="carousel-left"><img src="/Carousel/images/arrow-left.png" /></div>
-															<div id="carousel-right"><img src="/Carousel/images/arrow-right.png" /></div>
+						      			<!-- Inicio do Carrousel -->									
+								 		<center>
+											<div class="carousel-container">
+
+												<div id="carousel">
+														<div class="carousel-feature">
+															<a href="#"><img class="carousel-image" alt="Image Caption" src="/Carousel/images/empresa.jpg"></a>
+													<div class="carousel-caption">
+														<p>Nossa empresa, está sempre aberta para sua visita, venha nos conhecer, sejamos parceiros!</p>
 													</div>
-												</center>	
-												<!-- Fim do carrousel -->						 
-								
-						      		</td>
+												</div>
+
+												<div class="carousel-feature">
+													<a href="#"><img class="carousel-image" alt="Image Caption" src="/Carousel/images/Alceadeira.jpg"></a>
+													<div class="carousel-caption">
+														<p>
+															Industria de formulários continuos e Offset.
+														</p>
+													</div>
+												</div>
+
+												<div class="carousel-feature">
+													<a href="#"><img class="carousel-image" alt="Image Caption" src="/Carousel/images/Guilhotina.jpg"></a>
+													<div class="carousel-caption">
+														<p>
+															Guilhotina industrial.
+														</p>
+													</div>
+												</div>
+				
+												<div class="carousel-feature">
+													<a href="#"><img class="carousel-image" alt="Image Caption" src="/Carousel/images/MF-150.jpg"></a>
+												</div>
+				
+												<div class="carousel-feature">
+													<a href="#"><img class="carousel-image" alt="Image Caption" src="/Carousel/images/Maquinas.jpg"></a>
+													<div class="carousel-caption">
+														<p>
+															Cartões com alta qualidade e agilidade.
+														</p>
+													</div>
+												</div>
+				
+												<div class="carousel-feature">
+													<a href="#"><img class="carousel-image" alt="Image Caption" src="/Carousel/images/MF-150a.jpg"></a>
+													<div class="carousel-caption">
+														<p>
+															Excelente qualidade nos impressos.
+														</p>
+													</div>
+												</div>
+				
+												 <div class="carousel-feature">
+													<a href="#"><img class="carousel-image" alt="Image Caption" src="/Carousel/images/MF-150b.jpg"></a>
+													<div class="carousel-caption">
+														<p>
+															Pioneira em formulários continuos no Piauí.
+														</p>
+													</div>
+												</div>
+
+												 <div class="carousel-feature">
+													<a href="#"><img class="carousel-image" alt="Image Caption" src="/Carousel/images/Multilith-CDN-1250.jpg"></a>
+													<div class="carousel-caption">
+														<p>
+															Pioneira em formulários continuos no Piauí.
+														</p>
+													</div>
+												</div>
+												
+												 <div class="carousel-feature">
+													<a href="#"><img class="carousel-image" alt="Image Caption" src="/Carousel/images/Multilith-CDN-1250a.jpg"></a>
+													<div class="carousel-caption">
+														<p>
+															Pioneira em formulários continuos no Piauí.
+														</p>
+													</div>
+												</div>
+
+												 <div class="carousel-feature">
+													<a href="#"><img class="carousel-image" alt="Image Caption" src="/Carousel/images/Bobinas.jpg"></a>
+													<div class="carousel-caption">
+														<p>
+															Pioneira em formulários continuos no Piauí.
+														</p>
+													</div>
+												</div>
+				
+										</div>
+
+										<div id="carousel-left"><img src="/Carousel/images/arrow-left.png" /></div>
+										<div id="carousel-right"><img src="/Carousel/images/arrow-right.png" /></div>
+											</div>
+										</center>	
+										<!-- Fim do carrousel -->						 
+							
+					      			</td>
 						      </tr>
 						      <tr>
 						      		<td><br /></td>
@@ -188,19 +217,19 @@
 						      		<td>
 						      		
 						      			 <div id="fooder-end">
-														<div class="fooder-info">	
-																<br /><br />
-																<center>					  
-																<p class="fooder-info">Copyright 2012 © Los Angels </p> <br />
-																<p class="fooder-info">
-																		<strong><span class="fooder-info">Gráfica e Editora do Piauí</span></strong>
-																		| Av. Rui Barborasa, 3390/N | Matadouro  | Teresina/PI | 64.002-180 | Telefone: (86)3213-5857 | 
-																		<a href="mailto:formulariospiaui@hotmail.com">formulariospiaui@hotmail.com</a>
-																</p>	
-																</center>
-														</div>
+												<div class="fooder-info">	
+													<br /><br />
+													<center>					  
+													<p class="fooder-info">Copyright 2012 © Los Angels </p> <br />
+													<p class="fooder-info">
+															<strong><span class="fooder-info">Gráfica e Editora do Piauí</span></strong>
+															| Av. Rui Barborasa, 3390/N | Matadouro  | Teresina/PI | 64.002-180 | Telefone: (86)3213-5857 | 
+															<a href="mailto:formulariospiaui@hotmail.com">formulariospiaui@hotmail.com</a>
+													</p>	
+													</center>
 												</div>
-						      		</td>
+										</div>
+				      				</td>
 						      </tr>
 						      
 						  </tbody>
