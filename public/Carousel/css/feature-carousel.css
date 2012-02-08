@@ -3,7 +3,7 @@
  ********************/
 .carousel-container {
   position:relative;  
-  height:290px;
+  height:390px;
   width:70%; /*960px;*/
   padding:40px 0 31px 0;
   background: url(/static/images/bg-m-green.jpg) top left repeat;
