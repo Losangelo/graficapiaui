@@ -1,5 +1,7 @@
 Gpiaui::Application.routes.draw do
 	
+  resources :equipes
+
   resources :orcamentos
 
   resources :institucionals
