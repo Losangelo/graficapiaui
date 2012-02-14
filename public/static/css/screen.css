@@ -230,21 +230,23 @@ p#cmp_logo {
 }
 
 #fooder-end{
-		float:left;
-		position:relative;
-		background: url(/static/images/nav-bg-a.png) top left repeat-x; 
-		clear: both;
- 		width:100%;    
+	float:left;
+	position:relative;    
+	background: url(/static/images/nav-bg-a.png) top left repeat-x; 
+	clear: both;
+    padding: 20px;   
+	width:100%;    
     letter-spacing: 0.5px;
     text-shadow: #333 0 1px 0;
 }
 
-p.fooder-info {	
-		display: inline-block;
-		color: #fff;
-		font-family:'Helvetica Neue', 'Trebuchet MS', Tahoma, Arial, Helvetica, sans-serif;
-		font-size: 1em;
-		text-align: center;
+p.fooder-info {
+    padding: 05px;	
+	display: inline-block;
+	color: #fff;
+	font-family:'Helvetica Neue', 'Trebuchet MS', Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	text-align: center;
 }
 
 #corner {
