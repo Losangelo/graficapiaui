@@ -41,6 +41,104 @@
     <%= content_for?(:formatacao) ? yield(:formatacao) : ""  %> 
     
     <%= csrf_meta_tag %>  
+
+    <!-- inicio do content carrosel -->
+    <% content_for :carousel do %>
+     	<center>
+			<div class="carousel-container">
+
+				<div id="carousel">
+						<div class="carousel-feature">
+							<a href="#"><img class="carousel-image" alt="Image Caption" src="/Carousel/images/empresa.jpg"></a>
+					<div class="carousel-caption">
+						<p>Nossa empresa, está sempre aberta para sua visita, venha nos conhecer, sejamos parceiros!</p>
+					</div>
+				</div>
+
+				<div class="carousel-feature">
+					<a href="#"><img class="carousel-image" alt="Image Caption" src="/Carousel/images/Alceadeira.jpg"></a>
+					<div class="carousel-caption">
+						<p>
+							Industria de formulários continuos e Offset.
+						</p>
+					</div>
+				</div>
+
+				<div class="carousel-feature">
+					<a href="#"><img class="carousel-image" alt="Image Caption" src="/Carousel/images/Guilhotina.jpg"></a>
+					<div class="carousel-caption">
+						<p>
+							Guilhotina industrial.
+						</p>
+					</div>
+				</div>
+
+				<div class="carousel-feature">
+					<a href="#"><img class="carousel-image" alt="Image Caption" src="/Carousel/images/MF-150.jpg"></a>
+				</div>
+
+				<div class="carousel-feature">
+					<a href="#"><img class="carousel-image" alt="Image Caption" src="/Carousel/images/Maquinas.jpg"></a>
+					<div class="carousel-caption">
+						<p>
+							Cartões com alta qualidade e agilidade.
+						</p>
+					</div>
+				</div>
+
+				<div class="carousel-feature">
+					<a href="#"><img class="carousel-image" alt="Image Caption" src="/Carousel/images/MF-150a.jpg"></a>
+					<div class="carousel-caption">
+						<p>
+							Excelente qualidade nos impressos.
+						</p>
+					</div>
+				</div>
+
+				 <div class="carousel-feature">
+					<a href="#"><img class="carousel-image" alt="Image Caption" src="/Carousel/images/MF-150b.jpg"></a>
+					<div class="carousel-caption">
+						<p>
+							Pioneira em formulários continuos no Piauí.
+						</p>
+					</div>
+				</div>
+
+				 <div class="carousel-feature">
+					<a href="#"><img class="carousel-image" alt="Image Caption" src="/Carousel/images/Multilith-CDN-1250.jpg"></a>
+					<div class="carousel-caption">
+						<p>
+							Pioneira em formulários continuos no Piauí.
+						</p>
+					</div>
+				</div>
+				
+				 <div class="carousel-feature">
+					<a href="#"><img class="carousel-image" alt="Image Caption" src="/Carousel/images/Multilith-CDN-1250a.jpg"></a>
+					<div class="carousel-caption">
+						<p>
+							Pioneira em formulários continuos no Piauí.
+						</p>
+					</div>
+				</div>
+
+				 <div class="carousel-feature">
+					<a href="#"><img class="carousel-image" alt="Image Caption" src="/Carousel/images/Bobinas.jpg"></a>
+					<div class="carousel-caption">
+						<p>
+							Pioneira em formulários continuos no Piauí.
+						</p>
+					</div>
+				</div>
+
+		</div>
+
+		<div id="carousel-left"><img src="/Carousel/images/arrow-left.png" /></div>
+		<div id="carousel-right"><img src="/Carousel/images/arrow-right.png" /></div>
+			</div>
+		</center>	
+     <% end %>
+     <!-- fim do content carroceu -->
   
     </head>
   
@@ -102,103 +200,7 @@ formulariospiaui@hotmail.com</font></font></small></small></small>
 			      <!--   Sub-menu de operações FIM-->
 			      <tr>				
 			      		<td>	
-			      		
-			      			<!-- Inicio do Carrousel -->									
-					 		<center>
-								<div class="carousel-container">
-
-									<div id="carousel">
-											<div class="carousel-feature">
-												<a href="#"><img class="carousel-image" alt="Image Caption" src="/Carousel/images/empresa.jpg"></a>
-										<div class="carousel-caption">
-											<p>Nossa empresa, está sempre aberta para sua visita, venha nos conhecer, sejamos parceiros!</p>
-										</div>
-									</div>
-
-									<div class="carousel-feature">
-										<a href="#"><img class="carousel-image" alt="Image Caption" src="/Carousel/images/Alceadeira.jpg"></a>
-										<div class="carousel-caption">
-											<p>
-												Industria de formulários continuos e Offset.
-											</p>
-										</div>
-									</div>
-
-									<div class="carousel-feature">
-										<a href="#"><img class="carousel-image" alt="Image Caption" src="/Carousel/images/Guilhotina.jpg"></a>
-										<div class="carousel-caption">
-											<p>
-												Guilhotina industrial.
-											</p>
-										</div>
-									</div>
-	
-									<div class="carousel-feature">
-										<a href="#"><img class="carousel-image" alt="Image Caption" src="/Carousel/images/MF-150.jpg"></a>
-									</div>
-	
-									<div class="carousel-feature">
-										<a href="#"><img class="carousel-image" alt="Image Caption" src="/Carousel/images/Maquinas.jpg"></a>
-										<div class="carousel-caption">
-											<p>
-												Cartões com alta qualidade e agilidade.
-											</p>
-										</div>
-									</div>
-	
-									<div class="carousel-feature">
-										<a href="#"><img class="carousel-image" alt="Image Caption" src="/Carousel/images/MF-150a.jpg"></a>
-										<div class="carousel-caption">
-											<p>
-												Excelente qualidade nos impressos.
-											</p>
-										</div>
-									</div>
-	
-									 <div class="carousel-feature">
-										<a href="#"><img class="carousel-image" alt="Image Caption" src="/Carousel/images/MF-150b.jpg"></a>
-										<div class="carousel-caption">
-											<p>
-												Pioneira em formulários continuos no Piauí.
-											</p>
-										</div>
-									</div>
-
-									 <div class="carousel-feature">
-										<a href="#"><img class="carousel-image" alt="Image Caption" src="/Carousel/images/Multilith-CDN-1250.jpg"></a>
-										<div class="carousel-caption">
-											<p>
-												Pioneira em formulários continuos no Piauí.
-											</p>
-										</div>
-									</div>
-									
-									 <div class="carousel-feature">
-										<a href="#"><img class="carousel-image" alt="Image Caption" src="/Carousel/images/Multilith-CDN-1250a.jpg"></a>
-										<div class="carousel-caption">
-											<p>
-												Pioneira em formulários continuos no Piauí.
-											</p>
-										</div>
-									</div>
-
-									 <div class="carousel-feature">
-										<a href="#"><img class="carousel-image" alt="Image Caption" src="/Carousel/images/Bobinas.jpg"></a>
-										<div class="carousel-caption">
-											<p>
-												Pioneira em formulários continuos no Piauí.
-											</p>
-										</div>
-									</div>
-	
-							</div>
-
-							<div id="carousel-left"><img src="/Carousel/images/arrow-left.png" /></div>
-							<div id="carousel-right"><img src="/Carousel/images/arrow-right.png" /></div>
-								</div>
-							</center>	
-							<!-- Fim do carrousel -->						 
-				
+      				  		<%= yield(:carousel) if controller_name == 'usuarios'%>
 		      			</td>
 			      </tr>
 			      <tr>
