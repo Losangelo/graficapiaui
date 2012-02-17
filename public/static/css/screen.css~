@@ -222,6 +222,7 @@ p#cmp_logo {
 }
 
 #title-menu small {
+    font-family: 'Bad Script', cursive;
     display: block;
     font-size: 0.8em;
     color: #ccc;
