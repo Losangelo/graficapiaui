@@ -173,27 +173,22 @@ formulariospiaui@hotmail.com</font></font></small></small></small>
 	           
 	       			<!-- Menu principal de operacoes -->
 	            <td id="main_nav" colspan="3">
-					       	<div id='applications_menu'>
-					       	
-					            <div id="menu">								            
-					                <ul class="menu">
-				                    <li><a href="/" class="parent"><span>HOME</span></a></li>								                    
-			                      <li><%= link_to "<span>SERVIÇOS GRÁFICOS</span>".html_safe, {:controller=>'institucionals', :action=>'index'} %><li>
-														<!--
-														<li><a href="#" class="parent"><span>PRODUTOS</span></a></li>
-				                    <li><a href="#" class="parent"><span>PORTIFÓLIO</span></a></li> 
-
-				                    <li><a href="#" class="parent"><span>ORÇAMENTO</span></a></li>										                -->
-				                    <li><%= link_to "<span>EQUIPE</span>".html_safe, {:controller=>'equipes', :action=>'index'} %></li>
-				                    <li><a href="#" class="parent"><span>CONTATO</span></a></li>                  
-					                </ul>
-					            </div>
-					            <!--
-					            <%= image_tag "/images/facebook_premium.png", :alt=>"GPiaui", :width=>'50', :heigth=>'50' %>     
-					            <%= image_tag "/images/twitter_premium.png", :alt=>"GPiaui", :width=>'50', :heigth=>'50' %>     
-					            <%= image_tag "/images/feed_premium.png", :alt=>"GPiaui", :width=>'50', :heigth=>'50' %>     
-					            -->
-									</div>			                
+			       	<div id='applications_menu'>
+			       	
+			            <div id="menu">								            
+			                <ul class="menu">
+			                    <li><a href="/" class="parent"><span>HOME</span></a></li>
+		                    	<li><%= link_to "<span>SERVIÇOS GRÁFICOS</span>".html_safe, {:controller=>'institucionals', :action=>'index'} %><li>
+			                    <li><%= link_to "<span>EQUIPE</span>".html_safe, {:controller=>'equipes', :action=>'index'} %></li>
+			                    <li><%= link_to "<span>CONTATO</span>".html_safe, {:controller=>'contact', :action=>'index'} %></li>                  
+			                </ul>
+			            </div>
+			            <!--
+				            <%= image_tag "/images/facebook_premium.png", :alt=>"GPiaui", :width=>'50', :heigth=>'50' %>     
+				            <%= image_tag "/images/twitter_premium.png", :alt=>"GPiaui", :width=>'50', :heigth=>'50' %>     
+				            <%= image_tag "/images/feed_premium.png", :alt=>"GPiaui", :width=>'50', :heigth=>'50' %>
+			            -->
+					</div>			                
 	            </td>
 	            
 			      </tr>
