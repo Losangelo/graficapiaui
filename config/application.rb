@@ -45,7 +45,7 @@ module Gpiaui
       :port                 => 587,
       :domain               => "gmail.com",
       :user_name            => "thesolucoes@gmail.com",
-      :password             => "Super-Secure-Password",
+      :password             => "teresina",
       :authentication       => :plain,
       :enable_starttls_auto => true
     }
