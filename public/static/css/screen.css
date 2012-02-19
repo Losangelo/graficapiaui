@@ -239,13 +239,34 @@ p#cmp_logo {
 }
 
 p.fooder-info {
-    padding: 05px;	
+    /*padding: 05px;	*/
 	display: inline-block;
 	color: #fff;
 	font-family:'Helvetica Neue', 'Trebuchet MS', Tahoma, Arial, Helvetica, sans-serif;
 	font-size: 1em;
 	text-align: center;
 }
+
+ label {
+  float: left;
+  width: 60px;
+  text-align: right;
+  margin: 2px 20px;
+}
+
+.field div.input {
+  margin-bottom: 10px;
+}
+
+.field div.boolean, .field input[type='submit'] {
+  margin-left: 140px;
+}
+
+.field div.boolean label {
+  float: none;
+  margin: 0;
+}
+
 
 #corner {
     float: right;

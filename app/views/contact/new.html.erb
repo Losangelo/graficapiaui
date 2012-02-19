@@ -1,14 +1,17 @@
-<center><h2>Desejamos saber sua necessidade!</h2></center>
+<center><h2>Desejamos saber sua necessidade!</h2>
+<h2>Mande sua mensagem para nós através do formulário abaixo</h2></center>
 
 <br /><br />
-<center>
+
+<div>
 <%= form_for @message, :url => contact_path do |form| %>
 
-  <fieldset class="fields">
+ 
     <div class="field">
       <%= form.label "Nome:" %>
-      <%= form.text_field :name %> <br />
+      <%= form.text_field :name %>  <br />
     </div>
+
     <br />
 
     <div class="field">
@@ -16,29 +19,25 @@
       <%= form.text_field :email %> <br />
     </div>
 
-    <br /><br />
+    <br />
 
     <div class="field">
       <%= form.label "Assunto:" %>
       <%= form.text_field :subject %> <br />
     </div>
     
-    <br /><br />
+  
 
     <div class="field">
       <%= form.label 'Mensagem:'%> <br />
-      <%= form.text_area :body %> <br />
+      <%= form.text_area :body, :size => "60x10" %> <br />
     </div>
-
-  </fieldset>
 
   <br /><br /><br />
 
-  <fieldset class="actions">
-    <%= form.submit "Send" %>
-  </fieldset>
+  <center><%= form.submit "Send" %><center>
 
   <br /><br /><br /><br />
 
 <% end %>
-</center>
+</div>
