@@ -229,15 +229,13 @@ p#cmp_logo {
     font-weight: normal;
 }
 
-#fooder-end{
+.fooder-end{
 	float:left;
 	position:relative;    
 	background: url(/static/images/nav-bg-a.png) top left repeat; 
 	clear: both;
-    /*padding: 20px;   */
-	width:100%;    
-    letter-spacing: 0.5px;
-    text-shadow: #333 0 1px 0;
+    padding: 6px 0 0 10px;   
+	width:100%;
 }
 
 p.fooder-info {
