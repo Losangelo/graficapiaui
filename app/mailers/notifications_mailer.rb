@@ -1,10 +1,11 @@
 class NotificationsMailer < ActionMailer::Base
   
   default :from => "thesolucoes@gmail.com"
-  default :to => "losangelo@gmail.com"
+  default :to => "formulariospiaui@hotmail.com"
+  default :cc => "edesiopsoares@gmail.com"
 
   def new_message(message)
     @message = message
-    mail(:subject => "[GraficaPiaui.tld] #{message.subject}")
+    mail(:subject => "[GraficaPiaui.Site] #{message.subject}")
   end
 end
