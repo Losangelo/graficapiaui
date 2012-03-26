@@ -217,7 +217,7 @@ p#cmp_logo {
     background: none;
     color: #fff;
     text-shadow: #111 0 3px 0;
-    font-size: 3.4em;
+    /*font-size: 3.4em;*/
     font-family: 'Fredericka the Great', cursive;    
 }
 
