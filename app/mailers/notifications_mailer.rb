@@ -1,7 +1,7 @@
 class NotificationsMailer < ActionMailer::Base
   
-  default :from => "edesio@graficapiaui.com.br"
-  default :to => "edesio@graficapiaui.com.br"
+  default :from => "falecom@graficapiaui.com.br"
+  default :to => "graficapiaui@graficapiaui.com.br"
   default :cc => "edesiopsoares@gmail.com, losangelo@gmail.com"
 
   def new_message(message)
