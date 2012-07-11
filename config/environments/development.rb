@@ -25,13 +25,13 @@ Gpiaui::Application.configure do
 
   # Only use best-standards-support built into browsers
   config.action_dispatch.best_standards_support = :builtin
-  
+
     #para garantir o envio de emails - by los.
     config.action_mailer.delivery_method = :smtp
     config.action_mailer.smtp_settings = {
       :address              => "smtp.gmail.com",
       :port                 => 587,
-      :domain               => "losangelo@gmail.com",
+      :domain               => "graficapiaui.com.br",
       :user_name            => "graficapiaui",
       :password             => "grafica2012",
       :authentication       => :plain,

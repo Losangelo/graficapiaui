@@ -52,9 +52,9 @@ Gpiaui::Application.configure do
     config.action_mailer.smtp_settings = {
       :address              => "smtp.gmail.com",
       :port                 => 587,
-      :domain               => "losangelo@gmail.com",
-      :user_name            => "graficapiaui",
-      :password             => "grafica2012",
+      :domain               => "graficapiaui.com.br",
+      :user_name            => "falecom@graficapiaui.com.br",
+      :password             => "sucesso2012",
       :authentication       => :plain,
       :enable_starttls_auto => true
     }
@@ -62,5 +62,6 @@ Gpiaui::Application.configure do
     config.action_mailer.default_url_options = {
       :host => "graficapiaui.com.br"
     }
+  
   
 end
