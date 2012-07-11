@@ -39,21 +39,7 @@ module Gpiaui
     # Configure sensitive parameters which will be filtered from the log file.
     config.filter_parameters += [:password]
 
-    #para garantir o envio de emails - by los.
-    config.action_mailer.delivery_method = :smtp
-    config.action_mailer.smtp_settings = {
-      :address              => "smtp.gmail.com",
-      :port                 => 25,
-      :domain               => "graficapiaui.com.br",
-      :user_name            => "graficapiaui",
-      :password             => "grafica2012",
-      :authentication       => :plain,
-      :enable_starttls_auto => true
-    }
 
-    config.action_mailer.default_url_options = {
-      :host => "graficapiaui.com.br"
-    }
 
   end
 end
