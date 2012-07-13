@@ -22,6 +22,9 @@ gem 'therubyracer'
 #Para uso do Heroku
 
 group :production, :staging do
-  gem 'unicorn'
+  gem "unicorn"
+end
+
+group :production do
   gem "pg", ">= 0.12.2"
 end
