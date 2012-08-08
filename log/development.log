@@ -35921,3 +35921,327 @@ ActionController::RoutingError (No route matches [GET] "/images/lgp.png"):
   
 
 Rendered /home/losangelo/.rvm/gems/ruby-1.9.3-p0@rails313/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (7.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-05-15 08:28:33 -0300
+  Processing by UsuariosController#index as HTML
+  [1m[36mUsuario Load (0.1ms)[0m  [1mSELECT "usuarios".* FROM "usuarios" [0m
+Rendered usuarios/index.html.erb within layouts/application (29.7ms)
+Completed 200 OK in 100ms (Views: 50.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-05-15 08:29:48 -0300
+  Processing by UsuariosController#index as HTML
+  [1m[35mUsuario Load (0.1ms)[0m  SELECT "usuarios".* FROM "usuarios" 
+Rendered usuarios/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 11ms (Views: 7.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-05-15 08:30:56 -0300
+  Processing by UsuariosController#index as HTML
+  [1m[36mUsuario Load (0.1ms)[0m  [1mSELECT "usuarios".* FROM "usuarios" [0m
+Rendered usuarios/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 11ms (Views: 7.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-05-15 08:31:57 -0300
+  Processing by UsuariosController#index as HTML
+  [1m[35mUsuario Load (0.1ms)[0m  SELECT "usuarios".* FROM "usuarios" 
+Rendered usuarios/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 10ms (Views: 6.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-05-15 08:32:48 -0300
+  Processing by UsuariosController#index as HTML
+  [1m[36mUsuario Load (0.1ms)[0m  [1mSELECT "usuarios".* FROM "usuarios" [0m
+Rendered usuarios/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 11ms (Views: 7.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-05-15 08:55:17 -0300
+  Processing by UsuariosController#index as HTML
+  [1m[36mUsuario Load (0.1ms)[0m  [1mSELECT "usuarios".* FROM "usuarios" [0m
+Rendered usuarios/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 62ms (Views: 29.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2012-05-15 08:55:25 -0300
+  Processing by ContactController#new as HTML
+Rendered contact/new.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 10ms (Views: 7.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/institucionals" for 127.0.0.1 at 2012-05-15 08:55:44 -0300
+  Processing by InstitucionalsController#index as HTML
+  [1m[35mInstitucional Load (0.1ms)[0m  SELECT "institucionals".* FROM "institucionals" 
+Rendered institucionals/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 11ms (Views: 7.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/static/images/grafica-300x260.png" for 127.0.0.1 at 2012-05-15 08:55:44 -0300
+
+ActionController::RoutingError (No route matches [GET] "/static/images/grafica-300x260.png"):
+  
+
+Rendered /home/losangelo/.rvm/gems/ruby-1.9.3-p125@rails320/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (16.6ms)
+
+
+Started GET "/static/css/images/dots_conteudo-page.gif" for 127.0.0.1 at 2012-05-15 08:55:44 -0300
+
+ActionController::RoutingError (No route matches [GET] "/static/css/images/dots_conteudo-page.gif"):
+  
+
+Rendered /home/losangelo/.rvm/gems/ruby-1.9.3-p125@rails320/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/static/css/images/sub.png" for 127.0.0.1 at 2012-05-15 08:55:44 -0300
+
+ActionController::RoutingError (No route matches [GET] "/static/css/images/sub.png"):
+  
+
+Rendered /home/losangelo/.rvm/gems/ruby-1.9.3-p125@rails320/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/institucionals" for 127.0.0.1 at 2012-05-15 08:57:46 -0300
+  Processing by InstitucionalsController#index as HTML
+  [1m[36mInstitucional Load (0.1ms)[0m  [1mSELECT "institucionals".* FROM "institucionals" [0m
+Rendered institucionals/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 10ms (Views: 6.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/static/css/images/dots_conteudo-page.gif" for 127.0.0.1 at 2012-05-15 08:57:46 -0300
+
+ActionController::RoutingError (No route matches [GET] "/static/css/images/dots_conteudo-page.gif"):
+  
+
+Rendered /home/losangelo/.rvm/gems/ruby-1.9.3-p125@rails320/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/static/images/grafica-300x260.png" for 127.0.0.1 at 2012-05-15 08:57:46 -0300
+
+ActionController::RoutingError (No route matches [GET] "/static/images/grafica-300x260.png"):
+  
+
+Rendered /home/losangelo/.rvm/gems/ruby-1.9.3-p125@rails320/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/static/css/images/sub.png" for 127.0.0.1 at 2012-05-15 08:57:46 -0300
+
+ActionController::RoutingError (No route matches [GET] "/static/css/images/sub.png"):
+  
+
+Rendered /home/losangelo/.rvm/gems/ruby-1.9.3-p125@rails320/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-05-15 08:57:48 -0300
+  Processing by UsuariosController#index as HTML
+  [1m[35mUsuario Load (0.1ms)[0m  SELECT "usuarios".* FROM "usuarios" 
+Rendered usuarios/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 11ms (Views: 6.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/institucionals" for 127.0.0.1 at 2012-05-15 08:57:56 -0300
+  Processing by InstitucionalsController#index as HTML
+  [1m[36mInstitucional Load (0.1ms)[0m  [1mSELECT "institucionals".* FROM "institucionals" [0m
+Rendered institucionals/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 10ms (Views: 6.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/static/css/images/dots_conteudo-page.gif" for 127.0.0.1 at 2012-05-15 08:57:56 -0300
+
+ActionController::RoutingError (No route matches [GET] "/static/css/images/dots_conteudo-page.gif"):
+  
+
+Rendered /home/losangelo/.rvm/gems/ruby-1.9.3-p125@rails320/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/static/css/images/sub.png" for 127.0.0.1 at 2012-05-15 08:57:56 -0300
+
+ActionController::RoutingError (No route matches [GET] "/static/css/images/sub.png"):
+  
+
+Rendered /home/losangelo/.rvm/gems/ruby-1.9.3-p125@rails320/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/static/images/grafica-300x260.png" for 127.0.0.1 at 2012-05-15 08:57:56 -0300
+
+ActionController::RoutingError (No route matches [GET] "/static/images/grafica-300x260.png"):
+  
+
+Rendered /home/losangelo/.rvm/gems/ruby-1.9.3-p125@rails320/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/equipes" for 127.0.0.1 at 2012-05-15 08:57:57 -0300
+  Processing by EquipesController#index as HTML
+  [1m[35mEquipe Load (0.1ms)[0m  SELECT "equipes".* FROM "equipes" 
+Rendered equipes/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 11ms (Views: 6.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2012-05-15 08:57:58 -0300
+  Processing by ContactController#new as HTML
+Rendered contact/new.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 10ms (Views: 7.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2012-05-15 09:00:01 -0300
+  Processing by ContactController#new as HTML
+Rendered contact/new.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 12ms (Views: 9.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-05-15 09:00:29 -0300
+  Processing by UsuariosController#index as HTML
+  [1m[36mUsuario Load (0.1ms)[0m  [1mSELECT "usuarios".* FROM "usuarios" [0m
+Rendered usuarios/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 9ms (Views: 5.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2012-05-15 09:01:48 -0300
+  Processing by ContactController#new as HTML
+Rendered contact/new.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 12ms (Views: 9.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2012-05-15 09:06:45 -0300
+  Processing by ContactController#new as HTML
+Rendered contact/new.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 10ms (Views: 7.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2012-05-15 09:07:30 -0300
+  Processing by ContactController#new as HTML
+Rendered contact/new.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 10ms (Views: 7.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2012-05-15 09:08:26 -0300
+  Processing by ContactController#new as HTML
+Rendered contact/new.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 11ms (Views: 8.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2012-05-15 09:08:54 -0300
+  Processing by ContactController#new as HTML
+Rendered contact/new.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 11ms (Views: 8.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2012-05-15 09:09:14 -0300
+  Processing by ContactController#new as HTML
+Rendered contact/new.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 10ms (Views: 8.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2012-05-15 09:09:39 -0300
+  Processing by ContactController#new as HTML
+Rendered contact/new.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 9ms (Views: 6.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2012-05-15 09:10:01 -0300
+  Processing by ContactController#new as HTML
+Rendered contact/new.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 10ms (Views: 7.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2012-05-15 09:10:10 -0300
+  Processing by ContactController#new as HTML
+Rendered contact/new.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 10ms (Views: 7.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2012-05-15 09:10:19 -0300
+  Processing by ContactController#new as HTML
+Rendered contact/new.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 11ms (Views: 9.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2012-05-15 09:10:34 -0300
+  Processing by ContactController#new as HTML
+Rendered contact/new.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 9ms (Views: 7.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-05-15 09:45:20 -0300
+  Processing by UsuariosController#index as HTML
+  [1m[36mUsuario Load (0.1ms)[0m  [1mSELECT "usuarios".* FROM "usuarios" [0m
+Rendered usuarios/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 59ms (Views: 28.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2012-05-15 09:45:22 -0300
+  Processing by ContactController#new as HTML
+Rendered contact/new.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 9ms (Views: 7.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2012-05-15 09:46:02 -0300
+  Processing by ContactController#new as HTML
+Rendered contact/new.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 10ms (Views: 7.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2012-05-15 09:46:13 -0300
+  Processing by ContactController#new as HTML
+Rendered contact/new.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 11ms (Views: 8.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2012-05-15 09:46:21 -0300
+  Processing by ContactController#new as HTML
+Rendered contact/new.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 10ms (Views: 7.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2012-05-15 09:46:30 -0300
+  Processing by ContactController#new as HTML
+Rendered contact/new.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 9ms (Views: 7.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2012-05-15 09:46:38 -0300
+  Processing by ContactController#new as HTML
+Rendered contact/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 9ms (Views: 6.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/contact" for 127.0.0.1 at 2012-05-15 09:47:45 -0300
+  Processing by ContactController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"fsG3LRWQ6l7HvYskbiddbexuMogDb6LScyWMcPBZgEA=", "message"=>{"name"=>"losangelo", "email"=>"losangelo@gmail.com", "subject"=>"teste de email via novo provedor", "body"=>"um dois trẽs"}, "commit"=>"Send"}
+Rendered notifications_mailer/new_message.text.erb (0.6ms)
+
+Sent mail to formulariospiaui@hotmail.com (3140ms)
+Date: Tue, 15 May 2012 09:47:47 -0300
+From: thesolucoes@gmail.com
+To: formulariospiaui@hotmail.com
+Cc: edesiopsoares@gmail.com
+Message-ID: <4fb2507327f17_14123f8bb407b69014431@losangelo-lx.mail>
+Subject: [GraficaPiaui.Site] teste de email via novo provedor
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Nome: losangelo
+
+Email: losangelo@gmail.com
+
+Assunto: teste de email via novo provedor
+
+Corpo da Msn: um dois tr=E1=BA=BDs=
+Redirected to http://0.0.0.0:3000/
+Completed 302 Found in 4321ms
+
+
+Started GET "/" for 127.0.0.1 at 2012-05-15 09:47:50 -0300
+  Processing by UsuariosController#index as HTML
+  [1m[35mUsuario Load (0.1ms)[0m  SELECT "usuarios".* FROM "usuarios" 
+Rendered usuarios/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 27ms (Views: 5.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2012-05-15 09:51:29 -0300
+  Processing by ContactController#new as HTML
+Rendered contact/new.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 10ms (Views: 8.2ms | ActiveRecord: 0.0ms)
