@@ -1,0 +1,177 @@
+/***************************************************************************************************************************
+    Website: www.tunnelborbonico.info
+    Version: 1.0
+    Design Author: Qrnet Media Agency
+    Author URI: http://www.qrnet.it/ 
+***************************************************************************************************************************/
+
+*,html, body, span, applet, object, iframe, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, font, images, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+margin: 0;
+padding: 0;
+border: 0;
+outline: 0;
+vertical-align: top; /*baseline; posiciona melhor o menu vert e o conteudo*/
+background: transparent;
+font-weight:normal;
+}
+
+.clearfix:after {
+content: ".";
+display: block;
+height: 0;
+clear: both;
+visibility: hidden;
+}
+
+disabilita, #menuVertical {
+position:absolute;
+margin-top:-10000px;
+}
+
+images#background {
+bottom:0;
+left:0;
+position:fixed;
+width:100%;
+height:100%;
+z-index:2;
+}
+
+#sidebar {
+background:url("jqMenuVertical/left.png") repeat-y top right;
+float:left;
+height: auto%;
+position: absolute; /*fixed;*/
+width:195px; /*204px;*/
+z-index:2;
+}
+
+#sidebar-two {
+float:left;
+width:195px; /*204px;*/
+z-index:2;
+}
+
+#content-wrap {
+float:left;
+left:200px;
+position:absolute;
+width:598px; /*50%*/
+height:100%;
+z-index:2;
+}
+
+/*************************************************************************************************************
+*   SIDEBAR
+*************************************************************************************************************/
+
+#logo {
+width:160px;
+height: 264px; /*34px;*/
+margin:4px 0 0 15px;
+padding:0;
+}
+
+#logo #menuVertical {
+margin: 0;
+padding: 0;
+}
+
+#logo #menuVertical a{
+display:block;
+width:140px;
+height:34px;
+background-image: url("jqMenuVertical/fms/logo.pgn");
+background-position: 0px 0px;
+background-repeat: no-repeat;
+}
+
+#logo #menuVertical a:hover {
+background-image: url("jqMenuVertical/fms/logo_hover.pgn");
+background-position: 0px 0px;
+background-repeat: no-repeat;
+}
+
+#logo #menuVertical a span{
+position:relative; /*absolute;*/
+margin-left:-10000px;
+}
+
+#navigazione {
+margin-top: 0.2px;
+background: url("jqMenuVertical/menu-foot.jpg") no-repeat bottom left;
+text-align:right;
+margin-bottom: 10
+}
+
+#navigazione ul li{
+list-style:none;
+display:block;
+width:170px; /*190px;*/
+padding-top:6px;
+padding-bottom:4px;
+background: url("jqMenuVertical/menu.jpg") repeat-x top left;
+}
+
+#navigazione ul li.sub {
+list-style:none;
+padding-top:4px;
+padding-bottom:4px;
+width:190px;
+background: #d5d3c7  url("jqMenuVertical/um.png") no-repeat top left;
+border-top:#bdbaa7 solid 2px;
+}
+
+#navigazione ul li a{
+text-decoration:none;
+font-size:18px;
+color:#403f1d;
+padding-right:8px;
+}
+
+#navigazione ul li.sub a{
+text-decoration:none;
+font-size:15px;
+color:#7c7b55;
+padding-right:10px;
+}
+
+#navigazione ul li.sub strong{
+text-decoration:none;
+font-size:15px;
+color:#403f1d;
+padding-right:10px;
+}
+
+#navigazione ul li a:hover {
+color:#e28f2d;
+}
+
+#navigazione ul li.sub a:hover {
+color:#403f1d;
+}
+
+#navigazione ul li strong a, #navigazione ul li strong {
+color:#e28f2d;
+padding-right:25px;
+}
+
+#navigazione ul li span a, #navigazione ul li span {
+color:#e28f2d;
+padding-right:10px;
+}
+
+span.attivissimo {
+margin-right:15px;
+}
+
+#navigazione ul li.attivo{
+list-style:none;
+display:block;
+width:215px;
+padding-top:10px;
+padding-bottom:12px;
+font-size:18px;
+background: url("jqMenuVertical/menu-attivo.png") no-repeat top right;
+}
+
