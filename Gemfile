@@ -3,15 +3,14 @@ source 'http://rubygems.org'
 gem 'rails'
 
 group :development do
-  gem 'sqlite3-ruby', :require => 'sqlite3'
-  
+  gem 'sqlite3-ruby', :require => 'sqlite3'  
   #gem 'thin'
 end
 
 
 #Para uso do Heroku
 group :production do
-  gem 'faye'
+ # gem 'faye'
   gem "pg", ">= 0.12.2"
 end
 
