@@ -4,7 +4,7 @@ gem 'rails'
 
 group :development do
   gem 'sqlite3-ruby', :require => 'sqlite3'
-  gem 'faye'
+  #gem 'faye'
   gem 'thin'
 end
 
