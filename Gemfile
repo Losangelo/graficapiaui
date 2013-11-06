@@ -8,11 +8,7 @@ end
 
 #Para uso do Heroku
 group :production do
-<<<<<<< HEAD
   gem "pg"
-=======
-  gem "pg", ">= 0.12.2"
->>>>>>> 46c4be03d56978be3025c5848f0991acd5ff7f2b
 end
 
 # Gems used only for assets and not required
