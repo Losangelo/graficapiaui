@@ -1,0 +1,63 @@
+/* as cores do que é editado */
+/* .simple_form textarea, select, input:focus, option{ color: red; line_height:1.25px;} 
+ 
+input:focus, input:active, input:hover, select:hover{ 
+	color: gray; 
+	outline: none; 
+	border: 1.25px solid; 
+	font: bold 1.5em Arial, sans-serif;
+} 
+*/
+
+option{ color: red; line_height:1.25px;} 
+ 
+/* posicionamento dos label */
+.simple_form label {
+  float: left;
+  width: 200px;
+  text-align: right;
+  margin: 2px 10px;
+}
+
+/* espaçamento entre os componentes de edição spacelines. */
+.simple_form div.input {
+  margin-bottom: 1px;
+}
+
+.simple_form div.boolean{ 
+  margin-left: 221px;
+  display: block;
+}
+
+/*
+.simple_form div.boolean, .simple_form input[type='submit'] {margin-left: 57px;}
+.simple_form input[type="submit"]{margin-left:0px;} 
+.simple_form input:hover[type="submit"]{color:yellow; border: 2px solid} 
+*/
+
+.simple_form div.boolean label, .simple_form label.collection_radio {
+  float: none;
+  margin: 0;
+}
+
+.simple_form label.collection_radio {
+  margin-right: 15px;
+  margin-left: 2px;
+}
+
+.simple_form .error {
+  clear: left;
+  margin-left: 210px;
+  font-size: 12px;
+  color: #D00;
+  display: block;
+}
+
+.simple_form .hint {
+  clear: left;
+  margin-left:218px;
+  font-size: 12px;
+  color: #555;
+  display: block;
+  font-style: italic;
+}

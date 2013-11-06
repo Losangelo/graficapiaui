@@ -1,0 +1,309 @@
+<!-- APPLICATION LAYOUT -->
+#encoding: utf-8
+<!DOCTYPE html>
+<html class=" webkit chrome linux translated-ltr">
+    <head>
+
+<code>
+	/**
+	 * Mulit-byte Unserialize
+	 *
+	 * UTF-8 will screw up a serialized string
+	 *
+	 * @access private
+	 * @param string
+	 * @return string
+	 */
+	function mb_unserialize($string) {
+		$string = preg_replace('!s:(\d+):"(.*?)";!se', "'s:'.strlen('$2').':\"$2\";'", $string);
+		return unserialize($string);
+	}
+</code>
+
+<meta name="google-site-verification" content="NDKq2BZEtQISaWTdSA3EP8INq4BhMX3-aohlKJE60YQ" />
+    <!-- pegando a fonte para uso do sistema no google -->
+    <link href="http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:extralight,light,regular,bold" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Fredericka+the+Great|Pompiere|Bad+Script' rel='stylesheet' type='text/css'>
+
+    <!-- Usar no CSS, se for o caso.
+    	font-family: 'Fredericka the Great', cursive;
+		font-family: 'Pompiere', cursive;
+		font-family: 'Bad Script', cursive;
+    -->
+
+    <!-- mudando a informação da barra de títulos do navegador -->
+    <title>Gráfica e Editora Piauí</title>
+
+	<%= javascript_include_tag "application" %>
+    	<%= stylesheet_link_tag "application" %>
+
+
+    <!--[if lt IE 9]>
+        <%= stylesheet_link_tag "/static/css/style-ie" %>
+    <![endif]-->
+
+		<!-- para uso dos index (fontes e aparecencias)  -->
+    <%= content_for?(:formatacao) ? yield(:formatacao) : ""  %>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Language" content="pt-br" />
+    <meta name="copyright" content="copyright TheSolucoes %>" />
+    <meta name="keywords" content="graficas+teresina+piaui, gr&amp;aacute;fica+teresina+piau&amp;iacute;, cartoes+visita+teresina+piaui, cart&amp;atilde;es+visita+teresina+piau&amp;iacute;, convites+teresina+piaui, cartao de visita em teresina piaui, receituarios em teresina piaui, Gr&amp;aacute;ficas, impressos graficos, grafica, cartao de visita em teresina piaui, servicos graficos em teresina piaui, cartao, cartoes,  cart&amp;atilde;o, convite, receituarios, postais, cartazes, certificados, offset, off-set, formulario+continuo, formul&amp;aacute;rio+continuo, formul&amp;aacute;rio, forulario continuo, continuo, papel+autocompiativo, papel autocompiativo, autocompiativo">
+
+    <meta name="description" content="Gr&amp;aacute;fica piauí, Cart&amp;atilde;o de Visita, Banners, Receitu&amp;aacute;rios, Convites! (86) 3213-5857, ofertas e descontos, uma gr&amp;aacute;fica com muito mais para voc&amp;ecirc;!">
+    <meta name="generator" content="TheSolucoes design - http://www.thesolucoes.com.br">
+
+    <%= csrf_meta_tag %>
+
+    <!-- inicio do content carrosel -->
+    <% content_for :carousel do %>
+     	<center>
+			<div class="carousel-container">
+
+				<div id="carousel">
+						<div class="carousel-feature">
+							<a href="#"><img class="carousel-image" alt="Image Caption" src="Carousel/empresa.jpg"></a>
+					<div class="carousel-caption">
+						<p>Nossa empresa, está sempre aberta para sua visita, venha nos conhecer, sejamos parceiros!</p>
+					</div>
+				</div>
+
+				<div class="carousel-feature">
+					<a href="#"><img class="carousel-image" alt="Image Caption" src="Carousel/Alceadeira.jpg"></a>
+					<div class="carousel-caption">
+						<p>
+							Industria de formulários continuos e Offset.
+						</p>
+					</div>
+				</div>
+
+				<div class="carousel-feature">
+					<a href="#"><img class="carousel-image" alt="Image Caption" src="Carousel/Guilhotina.jpg"></a>
+					<div class="carousel-caption">
+						<p>
+							Guilhotina industrial.
+						</p>
+					</div>
+				</div>
+
+				<div class="carousel-feature">
+					<a href="#"><img class="carousel-image" alt="Image Caption" src="Carousel/MF-150.jpg"></a>
+				</div>
+
+				<div class="carousel-feature">
+					<a href="#"><img class="carousel-image" alt="Image Caption" src="Carousel/Maquinas.jpg"></a>
+					<div class="carousel-caption">
+						<p>
+							Cartões com alta qualidade e agilidade.
+						</p>
+					</div>
+				</div>
+
+				<div class="carousel-feature">
+					<a href="#"><img class="carousel-image" alt="Image Caption" src="Carousel/MF-150a.jpg"></a>
+					<div class="carousel-caption">
+						<p>
+							Excelente qualidade nos impressos.
+						</p>
+					</div>
+				</div>
+
+				 <div class="carousel-feature">
+					<a href="#"><img class="carousel-image" alt="Image Caption" src="Carousel/MF-150b.jpg"></a>
+					<div class="carousel-caption">
+						<p>
+							Pioneira em formulários continuos no Piauí.
+						</p>
+					</div>
+				</div>
+
+				 <div class="carousel-feature">
+					<a href="#"><img class="carousel-image" alt="Image Caption" src="Carousel/Multilith-CDN-1250.jpg"></a>
+					<div class="carousel-caption">
+						<p>
+							Pioneira em formulários continuos no Piauí.
+						</p>
+					</div>
+				</div>
+
+				 <div class="carousel-feature">
+					<a href="#"><img class="carousel-image" alt="Image Caption" src="Carousel/Multilith-CDN-1250a.jpg"></a>
+					<div class="carousel-caption">
+						<p>
+							Pioneira em formulários continuos no Piauí.
+						</p>
+					</div>
+				</div>
+
+				 <div class="carousel-feature">
+					<a href="#"><img class="carousel-image" alt="Image Caption" src="Carousel/Bobinas.jpg"></a>
+					<div class="carousel-caption">
+						<p>
+							Pioneira em formulários continuos no Piauí.
+						</p>
+					</div>
+				</div>
+
+		</div>
+
+			<div id="carousel-left"><img src="Carousel/arrow-left.png" /></div>
+			<div id="carousel-right"><img src="Carousel/arrow-right.png" /></div>
+		</div>
+		</center>
+        <tr>
+      		<td>
+      			<br />
+
+	      			<center>
+	      			 <iframe width="825" height="350" frameborder="1" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?q=-5.064484,-42.829489&amp;num=1&amp;t=h&amp;ie=UTF8&amp;ll=-5.064476,-42.829497&amp;spn=0.001429,0.002468&amp;z=14&amp;iwloc=near&amp;output=embed"></iframe>
+
+	      			 	<br /><small><a href="https://maps.google.com/maps?q=-5.064484,-42.829489&amp;num=1&amp;t=h&amp;ie=UTF8&amp;ll=-5.064476,-42.829497&amp;spn=0.001429,0.002468&amp;z=14&amp;iwloc=near&amp;source=embed" style="color:#0000FF;text-align:left">Exibir mapa ampliado</a></small>
+
+	      			</center>
+
+      			<br />
+      	</tr>
+     <% end %>
+     <!-- fim do content carroceu -->
+
+    </head>
+
+    <body>
+
+      <div id="root">
+			<table id="content" width="100%" height="100%">
+			    <tbody>
+			    	<tr>
+			          <td id="top" colspan="3">
+
+									<p id="cmp_logo">
+											<a href="#" target="_top">
+												 <%= image_tag "/static/images/lgp.png", :alt=>"GPiaui", :width=>'160', :heigth=>'160' %>
+											</a>
+									</p>
+
+									<h1 id="title-menu">
+							        <font><font style="">Gráfica Piauí Industria de Formulários Continuos</font></font>
+							        <small><small><small><font><font style="">Av. Rui Barborasa, 3390/N Matadouro Teresina/PI</font></font></small></small></small>
+							        <small><small><small><font><font style="">CEP: 64.002-180 - e-mail:
+formulariospiaui@hotmail.com</font></font></small></small></small>
+							        <small><small><small><font><font style="">(86) 3213-5857</font></font></small></small></small>
+							    </h1>
+
+					       <!--
+					        <div id="logo-dir">
+					         <%= image_tag "/static/images/fmc.png", :alt=>"GPiaui2", :width=>'140', :heigth=>'140' %>
+					        </div>	 -->
+	            	</td>
+	           </tr>
+
+	       			<!-- Menu principal de operacoes -->
+	            <td id="main_nav" colspan="3">
+			       	<div id='applications_menu'>
+
+			            <div id="menu">
+			                <ul class="menu">
+			                    <li><a href="/" class="parent"><span>HOME</span></a></li>
+		                    	<li><%= link_to "<span>SERVIÇOS GRÁFICOS</span>".html_safe, {:controller=>'institucionals', :action=>'index'} %><li>
+			                    <li><%= link_to "<span>EQUIPE</span>".html_safe, {:controller=>'equipes', :action=>'index'} %></li>
+			                    <li><%= link_to "<span>CONTATO</span>".html_safe, {:controller=>'contact', :action=>'index'} %></li>
+			                </ul>
+			            </div>
+			            <!--
+				            <%= image_tag "/images/facebook_premium.png", :alt=>"GPiaui", :width=>'50', :heigth=>'50' %>
+				            <%= image_tag "/images/twitter_premium.png", :alt=>"GPiaui", :width=>'50', :heigth=>'50' %>
+				            <%= image_tag "/images/feed_premium.png", :alt=>"GPiaui", :width=>'50', :heigth=>'50' %>
+			            -->
+					</div>
+	            </td>
+
+			      </tr>
+			      <!--   Sub-menu de operações FIM-->
+			      <tr>
+			      		<td>
+      				  		<%= yield(:carousel) if controller_name == 'usuarios'%>
+		      			</td>
+			      </tr>
+			      <tr>
+			      		<td colspan="3" valing="top">
+							  		<div class="top_class">
+									  		<%= yield if controller_name != 'usuarios'%>
+							  		</div>
+			      		</td>
+			      </tr>
+
+			      <tr>
+			      		<td>
+			      			<div class="fooder-end">
+								<center>
+
+							        <%= image_tag "/static/images/anjo.png", :alt=>"srlos", :width=>'40', :heigth=>'40' %>
+
+									<p class="fooder-info">Copyright 2012 © The Soluções </p><br />
+									<p class="fooder-info">
+										<span>Gráfica Piauí Industria de Formulários Continuos</span>
+										| Av. Rui Barborasa, 3390/N | Matadouro  | Teresina/PI | 64.002-180 | Telefone: (86)3213-5857 | <a href="mailto:formulariospiaui@hotmail.com">formulariospiaui@hotmail.com</a>
+									</p>
+								</center>
+							</div>
+
+
+							<div id="adsense">
+								<center>
+									<script type="text/javascript"><!--
+										google_ad_client = "ca-pub-6265023466559549";
+										/* grafpiaui01 */
+										google_ad_slot = "1268622692";
+										google_ad_width = 728;
+										google_ad_height = 90;
+										//-->
+										</script>
+										<script type="text/javascript"
+										src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+									</script>
+								<center>
+							</div>
+
+	      				</td>
+			      </tr>
+
+			  </tbody>
+		</table>
+
+      </div>
+
+
+    <!-- Área para os JavaScripts -->
+    <script type="text/javascript">
+      $(document).ready(function() {
+        var carousel = $("#carousel").featureCarousel({
+          // include options like this:
+          // (use quotes only for string values, and no trailing comma after last option)
+          // option: value,
+          // option: value
+        });
+
+        $("#but_prev").click(function () {
+          carousel.prev();
+        });
+        $("#but_pause").click(function () {
+          carousel.pause();
+        });
+        $("#but_start").click(function () {
+          carousel.start();
+        });
+        $("#but_next").click(function () {
+          carousel.next();
+        });
+      });
+    </script>
+
+    <script type="text/javascript">
+            $('div#submenu1').hide();
+				    $('li#submenu2').hide();
+	</script>
+
+    <!-- Fim da área para os JavaScripts -->
+
+	 </body>
+</html>
