@@ -66,8 +66,8 @@ Gpiaui::Application.configure do
 	:address              => "smtp.gmail.com",
 	:port                 => "587",
 	:domain               => "www.graficapiaui.com.br",
-	:user_name            => "falecom",
-	:password             => "sucesso2012",
+	:user_name            => "graficapiaui@graficapiaui.com.br",
+	:password             => "formularioa4",
 	:authentication       => :plain,
 	:enable_starttls_auto => true
 	}
