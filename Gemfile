@@ -24,7 +24,7 @@ group :assets do
       gem 'jquery-ui-rails'
 
       gem "compass"
-      gem "compass-rails31
+      gem "compass-rails31"
 end
 
 gem 'jquery-rails'
