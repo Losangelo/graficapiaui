@@ -13,6 +13,7 @@ group :production do
 =======
   gem "pg", ">= 0.12.2"
 >>>>>>> 46c4be03d56978be3025c5848f0991acd5ff7f2b
+  gem 'rails_12factor'
 end
 
 # Gems used only for assets and not required
