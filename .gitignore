@@ -24,7 +24,6 @@ solr/*
 public/assets/**/*
 public/assets/*
 coverage/*
-Gemfile.lock
 config/config.yml
 config/database.yml
 db/*.db
@@ -32,3 +31,5 @@ db/*.db
 db/schema.rb
 
 doc/*
+
+*.rb~
