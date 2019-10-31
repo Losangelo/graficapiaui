@@ -1,1 +1,4 @@
-an edit we want to keep
+# Site em Ruby on Rails
+### primeira proposta
+
+#### Mais sobre o desenvolvedor http://about.me
